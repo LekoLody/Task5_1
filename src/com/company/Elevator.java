@@ -2,10 +2,10 @@ package com.company;
 
 public class Elevator {
 
-    int currentFloor = 1;
-    int minFloor;
-    int maxFloor;
-    int floor;
+    private int currentFloor = 1;
+    private final int  minFloor;
+    private final int maxFloor;
+    private int floor;
 
     public Elevator(int minFloor, int maxFloor) {
         this.minFloor = minFloor;
